@@ -9,10 +9,10 @@ server:
 # database config
 mysql:
   database: wall
-  port: 3306
-  ip: 82.157.190.245
+  port: 3307
+  ip: 127.0.0.1
   username: root
-  password: Zty197368
+  password: 123456
 
 # spring config
 spring:
@@ -34,4 +34,4 @@ mybatis-plus:
   type-aliases-package: cn.ityao.wall.entity
 
 project-info:
-  version: @version@
+  version: version@

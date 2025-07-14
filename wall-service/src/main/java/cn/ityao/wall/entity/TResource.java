@@ -64,11 +64,13 @@ public class TResource implements Serializable {
     /**
      * 资源来源
      */
+    @TableField(exist = false)
     private String sourceType;
 
     /**
      * 资源格式
      */
+    @TableField(exist = false)
     private String resourceFormat;
 
     /**
